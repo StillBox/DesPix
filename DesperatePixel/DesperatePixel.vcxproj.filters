@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DXEngine">
+      <UniqueIdentifier>{897b4d4b-b515-4cff-ab86-d1bb14c09cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore">
+      <UniqueIdentifier>{4ad91917-6968-4c46-b80b-fb1453d7ed20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{85402a1a-68f4-46f5-85cd-9bd41bf2cb74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXUT.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXAudio.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXInput.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXColor.h">
+      <Filter>DXEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAudio.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScrn.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneOP.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenu.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePong.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRacing.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTetris.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSnake.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveData.h">
+      <Filter>GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneExtra.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXUT.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DXAudio.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DXInput.cpp">
+      <Filter>DXEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScrn.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneOP.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenu.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePong.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRacing.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTetris.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSnake.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveData.cpp">
+      <Filter>GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneExtra.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DesperatePixel.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\Resources\Pictures\Tex1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Data\Resources\Pictures\Tex2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Data\Resources\Pictures\Tex3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Data\Resources\Pictures\Tex4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Data\Resources\Pictures\Tex5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Data\Resources\Pictures\ico.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Data\Resources\Sounds\boom0.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\boom1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\boom2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\boom3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\boom4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Clear.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\flush.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Lose.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\ping1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\ping2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Pong.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Racing.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Snake8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Start.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Tetris.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Title.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Select.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Data\Resources\Sounds\Get.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
