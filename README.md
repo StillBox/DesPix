@@ -2,11 +2,9 @@
 Desparate Pixel Game Codes
 
 ## Current Version
-1.0.1
+1.0.0
 
 ## Update log
-
-ver1.0.1: Update the audio engine to compatible for Windows under Win 7.
 
 ## Engine and Language
 Direct3D and c++
