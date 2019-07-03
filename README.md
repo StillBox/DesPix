@@ -1,10 +1,10 @@
 # DesPix
 Desparate Pixel Game Codes
 
-# Current Version
+## Current Version
 1.0.0
 
-# Update log
+## Update log
 
 ## Engine and Language
 Direct3D and c++
