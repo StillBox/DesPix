@@ -7,7 +7,7 @@
 
 SceneMenu::SceneMenu()
 {
-
+	return;
 }
 
 SceneMenu::~SceneMenu()

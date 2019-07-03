@@ -21,6 +21,8 @@
 #define ID_BGM_SNAKE		104
 #define ID_BGM_EXTRA		105
 
+#define ID_BGM_COMMON		199
+
 //
 //Sound Effect Definition
 //
@@ -31,6 +33,8 @@
 #define ID_SE_TETRIS		203
 #define ID_SE_SNAKE			204
 #define ID_SE_EXTRA			205
+
+#define ID_SE_COMMON		299
 
 //
 //Voice Definition

@@ -4,7 +4,13 @@
 #define AUDIO_H
 
 #include <Windows.h>
-#include <XAudio2.h>
+
+#if(_WIN32_WINNT < _WIN32_WINNT_WIN8)
+	#include <C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAudio2.h>
+#else
+	#include <XAudio2.h>
+#endif
+
 #include <assert.h>
 #include <vector>
 #include <map>
